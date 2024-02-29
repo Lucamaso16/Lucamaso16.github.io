@@ -1,0 +1,50 @@
+body{
+    background-image: url("Images/shitposting.jpg");
+    background-color: #cccccc;
+    font-family: Arial, Verdana, Sans-serif;
+}
+
+/*LINK CLICCABILI*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+
+#mainTitle{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #3A8FFF;
+    border: solid 2px black;
+    width: 45%;
+    border-radius: 50px;
+}
+
+
+.sezione{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.sottoSezione{
+    background-color: rgb(195, 195, 195);
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 45%;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+.sottoSezione:hover{
+    background-color: rgb(98, 95, 95);
+}
+.sottoSezione h4 {
+    margin-top: 5px;
+}
